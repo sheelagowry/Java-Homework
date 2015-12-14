@@ -52,7 +52,7 @@ class MarkTextField extends PlainDocument{
 public class StudentGradingSystem extends JFrame implements ActionListener {
 	static JLabel lbSdetails,lbBlank,lbSScore,lbName,lbRegNo,lbEng,lbMaths,lbPhy,lbChem,lbBot,lbZoo,lbComp,lbTotal,lbPer,lbRem;
 	static JTextField tfName,tfRegNo,tfEng,tfMaths,tfPhy,tfChem,tfBot,tfZoo,tfComp,tfTotal,tfPer,tfRem;
-	static JButton btTotal,btPer,btRem,btPrint,btExit;
+	static JButton btTotal,btPer,btRem,btExit;
 	
 
 	
@@ -113,13 +113,13 @@ public class StudentGradingSystem extends JFrame implements ActionListener {
 		s.add(btTotal =new JButton("TOTAL SCORE"));
 		s.add(btPer =new JButton("PERCENTAGE"));
 		s.add(btRem =new JButton("REMARKS"));
-		s.add(btPrint =new JButton ("PRINT"));
+		
 		s.add(btExit =new JButton ("EXIT"));
 		
 		btTotal.addActionListener(s);
 		btPer.addActionListener(s);
 		btRem.addActionListener(s);
-		btPrint.addActionListener(s);
+		
 		btExit.addActionListener(s);
 		
 		
