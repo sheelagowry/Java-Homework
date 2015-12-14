@@ -77,7 +77,7 @@ public class StudentGradingSystem extends JFrame implements ActionListener {
 		s.add(lbMaths =new JLabel ("Mathematics"));
 		s.add(tfMaths =new JTextField ());
 		s.add(lbPhy =new JLabel ("Physics"));
-		s.add(tfPhy =new JTextField (2));
+		s.add(tfPhy =new JTextField ());
 		s.add(lbChem =new JLabel ("Chemistry"));
 		s.add(tfChem =new JTextField ());
 		s.add(lbBot =new JLabel ("Botony"));
