@@ -10,7 +10,7 @@ Authorized user with valid password can only login the application to work on it
 
 The application comprises of a grading system in which there are 4 courses and each course consists of default 6 subjects in it.
 
-Under all 4 courses, there are 4 exams list namely Semester1, Semester2, Semester3 and Semester4.
+Under all 4 courses, there are 4 exams listed namely Semester1, Semester2, Semester3 and Semester4.
 
 The user can add new students list under the course title, select the applicable exam and insert their marks for each subject. 
 
