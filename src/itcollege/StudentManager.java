@@ -57,7 +57,7 @@ public void initialize(){
 	showLoginPanel();
 }
 
-private void showLoginPanel() {  //purpose???
+private void showLoginPanel() {  
 	mLogin.show(true);
 }
 
